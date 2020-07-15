@@ -9,6 +9,6 @@ Disclaimer: Notes can get lost if OBS update, so please don't save important stu
 https://www.youtube.com/watch?v=PizwrIHn0CQ&feature=youtu.be
 
 
-# This is the public URL for this OBS Notepad site
+# This is the public URL to copy into your OBS
 
 https://specialagentsqueaky.github.io/obs-notepad/
