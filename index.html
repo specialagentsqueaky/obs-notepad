@@ -38,18 +38,26 @@
     (function () {
 
         var KEY = "v1-text";
-        var initText = window.localStorage.getItem(KEY);
-
         var charCounter = document.querySelector(".char-counter");
-        
         var textarea = document.querySelector("textarea");
-        textarea.value = initText;
 
+        var updateCharCounter = function() {
+             charCounter.innerText = textarea.value.length;
+        }
+        
         textarea.addEventListener("keyup", function () {
             console.log("keyup");
             charCounter.innerText = textarea.value.length;
             window.localStorage.setItem(KEY, textarea.value);
         });
+       
+        /*
+         * Init
+         */
+
+        var initText = window.localStorage.getItem(KEY);
+        textarea.value = initText;
+        updateCharCounter();
 
     }());
 
