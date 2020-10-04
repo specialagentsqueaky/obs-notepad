@@ -37,6 +37,7 @@
 
         textarea.addEventListener("keyup", function () {
             console.log("keyup");
+            textarea.placeholder = textarea.value + "test";
             window.localStorage.setItem(KEY, textarea.value);
         });
 
