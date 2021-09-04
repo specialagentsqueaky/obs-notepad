@@ -6,8 +6,7 @@ Disclaimer: Notes can get lost if OBS update, so please don't save important stu
 
 # Watch the video tutorial
 
-https://www.youtube.com/watch?v=PizwrIHn0CQ&feature=youtu.be
-
+https://www.youtube.com/watch?v=5eEcY93t-dg
 
 # This is the public URL to copy into your OBS
 
